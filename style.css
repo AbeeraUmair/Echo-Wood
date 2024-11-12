@@ -312,7 +312,7 @@ h2 {
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:375px) {
 
     header {
         background-color: #ceababaa;
@@ -321,8 +321,8 @@ h2 {
 
 .slogan {
         font-size: 4.5vw;
-        top: 15vw;
-        left: 13vw;
+        top: 18%;
+        left: 19%;
     }
 
     #menu {
