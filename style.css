@@ -109,7 +109,7 @@ h2 {
 .footer {
     background-color: #c5bebeaa;
     color: #000000;
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -118,10 +118,10 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.footer-section{
+.footer-section {
     margin: 1rem;
     width: 25%;
     height: 15%;
@@ -131,9 +131,15 @@ h2 {
     color: #070707;
     font-size: 1rem;
     margin-bottom: 1em;
+
 }
 
-.footer-section p,
+.footer-section p {
+    color: #3a3939;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
 .footer-section a {
     color: #3a3939;
     text-decoration: none;
@@ -143,6 +149,8 @@ h2 {
 .footer-social {
     list-style: none;
     display: flex;
+    justify-content: flex-start;
+    margin-left: 1.5rem;
     gap: 2em;
 }
 
@@ -163,6 +171,7 @@ h2 {
     header {
         justify-content: space-between;
     }
+
     #icon {
         display: flex;
         justify-content: flex-end;
@@ -232,12 +241,16 @@ h2 {
         height: 50vw;
         border-radius: .5rem;
     }
+  .footer-social a{
+    margin-left: -1rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
     header {
         justify-content: space-between;
     }
+
     .slogan {
         font-size: 5vw;
         top: 15%;
@@ -266,14 +279,21 @@ h2 {
         height: 50vw;
         border-radius: .5rem;
     }
-    .footer-container{
 
+    .footer-container {
+        align-items: center;
         flex-direction: column;
         margin-bottom: 1rem;
+
     }
-    .footer-section{
+
+    .footer-section {
         width: 55%;
         height: 20%;
+
+    }
+    .footer-social a{
+        margin-left: -.5rem;
     }
 }
 
@@ -319,13 +339,17 @@ h2 {
         height: 50vw;
         border-radius: .5rem;
     }
-    .footer-container{
+
+    .footer-container {
 
         flex-direction: column;
         margin-bottom: 1rem;
     }
-    .footer-section{
-        width: 55%;
+
+    .footer-section {
+        width: 65%;
         height: 20%;
     }
+
+  
 }
