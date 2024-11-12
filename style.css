@@ -1,4 +1,4 @@
-body {
+Dr vubody {
     margin: 0;
     padding: 0;
 }
@@ -312,11 +312,17 @@ h2 {
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:320px) {
 
     header {
         background-color: #ceababaa;
         justify-content: space-between;
+    }
+
+.slogan {
+        font-size: 4.5vw;
+        top: 15vw;
+        left: 13vw;
     }
 
     #menu {
