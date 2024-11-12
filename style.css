@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 1rem;
+    padding: 0rem;
+    background-color: #c5bebeaa;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: .3rem;
+    justify-content: space-between;
+    box-shadow: 0.2rem 0.2rem .5rem rgba(179, 169, 169, 0.412);
+
+}
+
+#menu {
+    margin: .5rem;
+    font-size: 1.5rem;
+}
+
+#icon {
+    display: flex;
+    justify-content: flex-end;
+    gap: .5rem;
+    margin: rem;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #343434;
+}
+
+/* banner  */
+.slogan {
+    font-size: 4vw;
+    color: #2c2001;
+    text-align: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 10vw;
+    left: 20vw;
+    z-index: 10;
+}
+
+main {
+    margin: 1rem;
+    position: relative;
+}
+
+.banner-image {
+    border-radius: .4rem;
+    width: 100%;
+    box-shadow: 0.2rem 0.2rem .5rem rgba(179, 169, 169, 0.412);
+    object-fit: cover;
+}
+
+/* products  */
+h2 {
+    text-align: center;
+    color: #443101;
+}
+
+.product {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.product img {
+    width: 25vw;
+    height: 25vw;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.513);
+}
+
+.hammocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#hammock img {
+    width: 25vw;
+    height: 50vw;
+    border-radius: .5rem;
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.513);
+}
+
+#hammock img:hover {
+    transform: scale(1.05);
+    transition: transform .3s ease-in-out;
+}
+
+.product div :hover {
+    transform: scale(1.05);
+    transition: transform .3s ease-in-out;
+}
+
+/* footer  */
+.footer {
+    background-color: #c5bebeaa;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-section{
+    margin: 1rem;
+    width: 25%;
+    height: 15%;
+}
+
+.footer-section h3 {
+    color: #070707;
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #3a3939;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.footer-social a {
+    color: #777676;
+    font-size: 1em;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: .5em;
+    font-size: 0.8em;
+    color: #777676;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    header {
+        justify-content: space-between;
+    }
+    #icon {
+        display: flex;
+        justify-content: flex-end;
+        gap: .5rem;
+        margin: 1rem;
+    }
+
+    .product img {
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .banner-image {
+        height: 25rem;
+    }
+
+    .hammocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #hammock img {
+        width: 25vw;
+        height: 50vw;
+        border-radius: .5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: space-between;
+    }
+
+    #menu {
+        margin: 1rem;
+    }
+
+    #icon {
+        display: flex;
+        justify-content: flex-end;
+        gap: .5rem;
+        margin: 1rem;
+    }
+
+
+    .product img {
+        width: 25vw;
+        height: 25vw;
+        margin: .5rem;
+    }
+
+    .banner-image {
+        height: 20rem;
+    }
+
+    .hammocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #hammock img {
+        width: 28vw;
+        height: 50vw;
+        border-radius: .5rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        justify-content: space-between;
+    }
+    .slogan {
+        font-size: 5vw;
+        top: 15%;
+        left: 17%;
+    }
+
+    .banner-image {
+        height: 15rem;
+    }
+
+    .product img {
+        width: 90vw;
+        height: 60vw;
+        margin: 1rem;
+    }
+
+    .hammocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #hammock img {
+        width: 25vw;
+        height: 50vw;
+        border-radius: .5rem;
+    }
+    .footer-container{
+
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .footer-section{
+        width: 55%;
+        height: 20%;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    header {
+        background-color: #ceababaa;
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: block;
+        margin: rem;
+    }
+
+    /* banner  */
+    .banner-image {
+        height: 15rem;
+        margin: 0rem;
+    }
+
+    .product {
+        display: block;
+    }
+
+    .product img {
+        width: 85vw;
+        height: 65vw;
+        border-radius: .5rem;
+        box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.513);
+        margin: .5rem 1rem;
+    }
+
+    .hammocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #hammock img {
+        width: 25vw;
+        height: 50vw;
+        border-radius: .5rem;
+    }
+    .footer-container{
+
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .footer-section{
+        width: 55%;
+        height: 20%;
+    }
+}
