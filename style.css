@@ -1,4 +1,5 @@
-Dr vubody {
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -222,9 +223,14 @@ h2 {
         gap: .5rem;
         margin: 1rem;
     }
+    .slogan {
+        font-size: 4.5vw;
+        top: 18%;
+        left: 17%;
+    }
 
 .banner-image {
-        height: 20rem;
+        height: 25rem;
     }
 
     h2 {
@@ -375,4 +381,76 @@ h2 {
         width: 65%;
         height: 20%;
     }
+}
+
+@media screen and (max-width:320px) {
+    header {
+        background-color: #ceababaa;
+    margin: .5rem;
+    font-size: xx-small;
+    
+    }
+
+.slogan {
+        font-size: 4.5vw;
+        top: 25%;
+        left: 19%;
+    }
+
+    #menu {
+        display: block;
+        margin: rem;
+    }
+
+    /* banner  */
+main{
+    margin: .5rem;
+}
+
+    .banner-image {
+        height: 15rem;
+        margin: 0rem;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    .product {
+        display: block;
+    
+    }
+
+    .product img {
+        width: 85vw;
+        height: 65vw;
+        border-radius: .5rem;
+        box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.513);
+        justify-content: center;
+    }
+
+    .hammocks {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #hammock img {
+        width: 25vw;
+        height: 50vw;
+        border-radius: .5rem;
+    }
+
+    .footer-container {
+
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .footer-section {
+        width: 65%;
+        height: 20%;
+    }
+
 }
