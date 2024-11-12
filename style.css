@@ -60,7 +60,11 @@ main {
 }
 
 /* products  */
+.products{
+    margin-top: 5rem;
+}
 h2 {
+    font-size: 3vw;
     text-align: center;
     color: #443101;
 }
@@ -111,6 +115,7 @@ h2 {
     color: #000000;
     padding: 2rem;
     text-align: center;
+    margin-top: 6rem;
 }
 
 .footer-container {
@@ -218,6 +223,13 @@ h2 {
         margin: 1rem;
     }
 
+.banner-image {
+        height: 20rem;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
 
     .product img {
         width: 25vw;
@@ -225,9 +237,7 @@ h2 {
         margin: .5rem;
     }
 
-    .banner-image {
-        height: 20rem;
-    }
+    
 
     .hammocks {
         display: flex;
@@ -260,6 +270,11 @@ h2 {
     .banner-image {
         height: 15rem;
     }
+
+    h2 {
+        font-size: 5vw;
+    }
+
 
     .product img {
         width: 90vw;
@@ -315,6 +330,10 @@ h2 {
         margin: 0rem;
     }
 
+    h2 {
+        font-size: 6vw;
+    }
+
     .product {
         display: block;
     }
@@ -350,6 +369,4 @@ h2 {
         width: 65%;
         height: 20%;
     }
-
-  
 }
