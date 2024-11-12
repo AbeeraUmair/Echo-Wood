@@ -1,4 +1,4 @@
-body {
+Dr vubody {
     margin: 0;
     padding: 0;
 }
@@ -317,6 +317,12 @@ h2 {
     header {
         background-color: #ceababaa;
         justify-content: space-between;
+    }
+
+.slogan {
+        font-size: 5vw;
+        top: 15%;
+        left: 15%;
     }
 
     #menu {
