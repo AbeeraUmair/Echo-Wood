@@ -13,7 +13,7 @@ header {
     border-radius: .3rem;
     justify-content: space-between;
     box-shadow: 0.2rem 0.2rem .5rem rgba(179, 169, 169, 0.412);
-
+    color: #343434;
 }
 
 #menu {
@@ -21,17 +21,17 @@ header {
     font-size: 1.5rem;
 }
 
+
 #icon {
     display: flex;
     justify-content: flex-end;
     gap: .5rem;
-    margin: rem;
+    margin: 1rem;
     font-size: 1.5rem;
 }
 
 h1 {
     font-size: 1.5rem;
-    color: #343434;
 }
 
 /* banner  */
@@ -174,16 +174,6 @@ h2 {
 
 /* Media Queries */
 @media screen and (max-width: 1024px) {
-    header {
-        justify-content: space-between;
-    }
-
-    #icon {
-        display: flex;
-        justify-content: flex-end;
-        gap: .5rem;
-        margin: 1rem;
-    }
 
     .product img {
         width: 25vw;
@@ -209,18 +199,7 @@ h2 {
 }
 
 @media screen and (max-width: 768px) {
-    header {
-        justify-content: space-between;
-    }
-
     #menu {
-        margin: 1rem;
-    }
-
-    #icon {
-        display: flex;
-        justify-content: flex-end;
-        gap: .5rem;
         margin: 1rem;
     }
 
@@ -244,8 +223,6 @@ h2 {
         margin: .5rem;
     }
 
-
-
     .hammocks {
         display: flex;
         flex-wrap: wrap;
@@ -265,10 +242,6 @@ h2 {
 }
 
 @media screen and (max-width: 425px) {
-    header {
-        justify-content: space-between;
-    }
-
     .slogan {
         font-size: 5vw;
         top: 15%;
@@ -320,12 +293,6 @@ h2 {
 }
 
 @media screen and (max-width:375px) {
-
-    header {
-        background-color: #ceababaa;
-        justify-content: space-between;
-    }
-
     .slogan {
         font-size: 4.5vw;
         top: 18%;
@@ -385,9 +352,7 @@ h2 {
 
 @media screen and (max-width:320px) {
     header {
-        background-color: #ceababaa;
         margin: .5rem;
-        font-size: xx-small;
     }
 
     .slogan {
