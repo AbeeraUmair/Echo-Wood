@@ -307,13 +307,11 @@ h2 {
         align-items: center;
         flex-direction: column;
         margin-bottom: 1rem;
-
     }
 
     .footer-section {
         width: 55%;
         height: 20%;
-
     }
 
     .footer-social a {
@@ -375,7 +373,6 @@ h2 {
     }
 
     .footer-container {
-
         flex-direction: column;
         margin-bottom: 1rem;
     }
@@ -391,7 +388,6 @@ h2 {
         background-color: #ceababaa;
         margin: .5rem;
         font-size: xx-small;
-
     }
 
     .slogan {
@@ -421,7 +417,6 @@ h2 {
 
     .product {
         display: block;
-
     }
 
     .product img {
@@ -446,7 +441,6 @@ h2 {
     }
 
     .footer-container {
-
         flex-direction: column;
         margin-bottom: 1rem;
     }
@@ -455,5 +449,4 @@ h2 {
         width: 65%;
         height: 20%;
     }
-
 }
