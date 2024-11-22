@@ -38,22 +38,19 @@ h1 {
     font-size: 4vw;
     color: #2c2001;
     text-align: center;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
     position: absolute;
-    top: 10vw;
-    left: 20vw;
+    top: 30%;
     z-index: 10;
 }
 
 main {
     margin: 1rem;
-    position: relative;
 }
 
 .banner-image {
+    position: relative;
     border-radius: .4rem;
-    width: 100%;
+    max-width: 100%;
     box-shadow: 0.2rem 0.2rem .5rem rgba(179, 169, 169, 0.412);
     object-fit: cover;
 }
@@ -172,6 +169,26 @@ h2 {
 }
 
 /* Media Queries */
+@media screen and (max-width: 2560px) {
+    .slogan {
+        top: 20%;
+    }
+
+    .banner-image {
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .slogan {
+        top: 20%;
+    }
+
+    .banner-image {
+        height: 45vh;
+    }
+}
+
 @media screen and (max-width: 1024px) {
 
     .product img {
@@ -180,7 +197,7 @@ h2 {
     }
 
     .banner-image {
-        height: 25rem;
+        height: 45vh;
     }
 
     .hammocks {
@@ -202,14 +219,8 @@ h2 {
         margin: 1rem;
     }
 
-    .slogan {
-        font-size: 4.5vw;
-        top: 18%;
-        left: 17%;
-    }
-
     .banner-image {
-        height: 25rem;
+        height: 45vh;
     }
 
     h2 {
@@ -241,14 +252,9 @@ h2 {
 }
 
 @media screen and (max-width: 425px) {
-    .slogan {
-        font-size: 5vw;
-        top: 15%;
-        left: 17%;
-    }
 
     .banner-image {
-        height: 15rem;
+        height: vh;
     }
 
     h2 {
@@ -277,7 +283,6 @@ h2 {
 
     .footer-container {
         align-items: center;
-        flex-direction: column;
         margin-bottom: 1rem;
     }
 
@@ -292,11 +297,6 @@ h2 {
 }
 
 @media screen and (max-width:375px) {
-    .slogan {
-        font-size: 4.5vw;
-        top: 18%;
-        left: 19%;
-    }
 
     #menu {
         display: block;
@@ -305,7 +305,7 @@ h2 {
 
     /* banner  */
     .banner-image {
-        height: 15rem;
+        height: vh;
         margin: 0rem;
     }
 
@@ -339,6 +339,8 @@ h2 {
     }
 
     .footer-container {
+        display: flex;
+        justify-content: center;
         flex-direction: column;
         margin-bottom: 1rem;
     }
@@ -354,25 +356,9 @@ h2 {
         margin: .5rem;
     }
 
-    .slogan {
-        font-size: 4.5vw;
-        top: 25%;
-        left: 19%;
-    }
-
-    #menu {
-        display: block;
-        margin: rem;
-    }
-
     /* banner  */
     main {
         margin: .5rem;
-    }
-
-    .banner-image {
-        height: 15rem;
-        margin: 0rem;
     }
 
     h2 {
